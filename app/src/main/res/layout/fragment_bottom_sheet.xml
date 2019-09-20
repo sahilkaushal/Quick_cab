@@ -1,0 +1,247 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context="com.example.touchstone.demo.fragment.Bottom_sheet">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/driverbg"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="210dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/Driver_name"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Name"
+            android:textColor="#000000"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1.03"
+            android:text=":-Red Storm"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Driver_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="182dp"
+        android:layout_marginLeft="10dp"
+        android:text="Driver_detail......"
+        android:textColor="#000000"
+
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/Contact_no"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.22"
+            android:text="Contact_no"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dial_a_no"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.52"
+            android:text=":-7307638883"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:clickable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="300dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.33"
+            android:text="Registration_no"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.52"
+            android:text=":-#DF4589"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="350dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/licenceview"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.33"
+            android:text="licence no"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.52"
+            android:text=":-012654789"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="400dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/vehicle_no"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.33"
+            android:text="vehicle no"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.52"
+            android:text=":-PB 06 C 6570"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="250dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/Feedback"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.33"
+            android:text="Feedback......"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="0"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:id="@+id/comment"
+        android:textColor="#000000"
+        android:hint="Type here..."
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignLeft="@+id/Driver_detail"
+        android:layout_alignStart="@+id/Driver_detail" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_marginTop="650dp"
+        android:id="@+id/button2"
+        android:layout_marginLeft="160dp"/>
+</RelativeLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,199 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.touchstone.demo.fragment.SettingFragement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/listviewbg">
+
+
+        <TextView
+            android:id="@+id/Setting_dialoge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:text="Configure the following setting to password protect the Quick Cab app against unwanted access"
+            android:textColor="#bababa"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/Setting_dialoge2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Account Setting"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Setting_dialoge"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.03"
+                android:text="Login Detail's"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/EMAIL_FIELd"
+                    android:layout_width="140dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.08"
+                    android:paddingStart="20dp"
+                    android:paddingTop="30dp"
+                    android:text="EMAIL_ADDRESS"
+                    android:textColor="#bababa"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/Email_edit_field"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.87"
+                    android:background="#bababa"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="sahil"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/Setting_oldPassword_field"
+                    android:layout_width="140dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.08"
+                    android:paddingStart="20dp"
+                    android:paddingTop="30dp"
+                    android:text="OldPassword"
+                    android:textColor="#bababa"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/Setting_oldpassword_edit_field"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.87"
+                    android:background="#bababa"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/New_password"
+                    android:layout_width="140dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.08"
+                    android:paddingStart="20dp"
+                    android:paddingTop="30dp"
+                    android:text="New_Password"
+                    android:textColor="#bababa"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/New_password_edit_field"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.87"
+                    android:background="#bababa"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/Confirm_field"
+                    android:layout_width="140dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.08"
+                    android:paddingStart="20dp"
+                    android:paddingTop="30dp"
+                    android:text="Confirm_Password"
+                    android:textColor="#bababa"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/Confirm_password_edit_field"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.87"
+                    android:background="#bababa"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_weight="0.03"
+                android:background="#1FBAD6"
+                android:text="Submit"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#1E1E31"
+    tools:context="com.example.touchstone.demo.fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Before you ride:
+
+A rider can start the Quick_Cab app from anywhere and wait safely for the car to arrive. That means no standing on the street to hail a cab or walking around strange neighbourhoods to find the nearest bus stop.
+You always know who is coming to pick you up. We provide information about the driver, including his or her photo, name and rating, as well as information about the license plate number and type of vehicle before your ride begins.
+Quick_Cab requires that our driver-partners:
+have a valid commercial driver’s license;
+obtain police verification;
+have commercial liability insurance;
+pass an independent background check;
+submit documentation of license, insurance, vehicle registration, and police verification to Quick_Cab for verification/ validation of authenticity. In fact, Quick_Cab is the only company that actually keeps electronic copies of all driver credentials/ documents on file.
+During your ride:
+
+Every Quick_Cab ride is insured
+Using Send Status riders can easily share ride details, including the specific route and estimated time of arrival, with friends or family so they can see a rider’s current GPS location and arrival time.
+Riders can also see the route on the map in the app. The real-time location is clearly marked so riders know where they are on their journey—and if they are on the right route.
+Quick_Cab uses GPS to keep a record of where a driver goes during the ride, creating accountability and a strong incentive for good behaviour.
+The in-app SOS button has been piloted in India (is available across all 22 cities) to alert the local police should a rider need immediate assistance in the event of an emergency, and connect the rider to local police by dialing ‘100’.
+After your ride:
+
+We ask riders and drivers to rate each other and provide feedback before booking or accepting another ride. Our safety team reviews this information and investigates any issues.
+If something happens while in the car, whether it’s a traffic accident or an altercation between rider and driver, our customer support staff are ready to respond 24 hours a day, seven days a week.
+In cases where law enforcement provides us with valid legal process, we work to get them the facts, for example providing trip logs.
+Of course holding drivers and riders accountable for their behaviour is important for everyone’s safety. It’s why:
+
+Driver-partners using the Quick_Cab platform undergo a police verification and independent 3rd party background check; and
+Riders and drivers with whom others have consistently had a very bad experience, or who have been involved in a serious safety incident while on the platform, are no longer allowed to use Quick_Cab."
+            android:textColor="@color/itemscolor"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+    </ScrollView>
+
+</RelativeLayout>

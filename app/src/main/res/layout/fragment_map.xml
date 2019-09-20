@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#151528"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/Sending_request"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/progressBar"
+            android:background="#151528"
+            android:gravity="center"
+            android:text="Sending Request........"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/seekbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="410dp">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="30dp"
+                android:max="100"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:scrollbarStyle="insideInset"
+                android:thumb="@drawable/ic_menu_seekbar_car" />
+
+            <TextView
+                android:id="@+id/XL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/seekBar"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="45dp"
+
+                android:gravity="end"
+                android:text="XL"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/XXL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/XL"
+                android:layout_marginRight="50dp"
+                android:text="XXL"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cancelcab"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignEnd="@+id/XL"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/XL"
+                android:src="@drawable/ic_menu_booking_cancel"
+                android:visibility="gone"
+                app:civ_border_color="#ffffff"
+                app:civ_border_width="2dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/seekbarlayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="142dp"
+            android:text="Change the Cab size"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:visibility="invisible" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/driver_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/progressBar"
+
+            android:layout_marginTop="92dp"
+            android:src="@drawable/driverbg"
+            android:visibility="gone"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp" />
+
+
+    </RelativeLayout>
+
+</com.flipboard.bottomsheet.BottomSheetLayout>

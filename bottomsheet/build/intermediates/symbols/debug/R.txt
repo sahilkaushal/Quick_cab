@@ -1,0 +1,2 @@
+int bool bottomsheet_is_tablet 0x7f050001
+int dimen bottomsheet_default_sheet_width 0x7f080001

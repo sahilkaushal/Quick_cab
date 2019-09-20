@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+
+    tools:context="com.example.touchstone.demo.fragment.ProfileFragement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#151528"
+        android:orientation="vertical"
+        android:weightSum="1"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_page"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile_blank_field"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Frist_Name"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/Get_frist_name"
+                    android:layout_width="250dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="45dp"
+                    android:background="#bababa"
+                    android:paddingLeft="15dp"
+                    android:text="Frist_Name"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+                android:text="Last_Name"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Get_last_name"
+                android:layout_width="250dp"
+                android:layout_height="20dp"
+              android:layout_marginLeft="8dp"
+                android:background="#bababa"
+                android:paddingLeft="15dp"
+                android:text="Last_Name"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Email Address"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Get_email"
+                android:layout_width="250dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="#bababa"
+                android:paddingLeft="20dp"
+
+                android:text="hello"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.03"
+            android:background="#1FBAD6"
+            android:text="LOG_OUT"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</FrameLayout>

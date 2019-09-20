@@ -1,0 +1,3 @@
+flipboard.bottomsheet
+bool bottomsheet_is_tablet
+dimen bottomsheet_default_sheet_width
